@@ -11,6 +11,9 @@
 		147CE0522602DBC400214F65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CE0512602DBC400214F65 /* ContentView.swift */; };
 		147CE0542602DBC400214F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147CE0532602DBC400214F65 /* Assets.xcassets */; };
 		147CE0572602DBC400214F65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147CE0562602DBC400214F65 /* Preview Assets.xcassets */; };
+		147CE0622602DC0900214F65 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 147CE05F2602DC0900214F65 /* sample.json */; };
+		147CE0632602DC0900214F65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CE0602602DC0900214F65 /* Constants.swift */; };
+		147CE0642602DC0900214F65 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 147CE0612602DC0900214F65 /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		147CE0532602DBC400214F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		147CE0562602DBC400214F65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		147CE0582602DBC400214F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		147CE05F2602DC0900214F65 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		147CE0602602DC0900214F65 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		147CE0612602DC0900214F65 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				147CE04F2602DBC400214F65 /* image_detectionApp.swift */,
 				147CE0512602DBC400214F65 /* ContentView.swift */,
+				147CE0602602DC0900214F65 /* Constants.swift */,
+				147CE0612602DC0900214F65 /* MobileNetV2.mlmodel */,
+				147CE05F2602DC0900214F65 /* sample.json */,
 				147CE0532602DBC400214F65 /* Assets.xcassets */,
 				147CE0582602DBC400214F65 /* Info.plist */,
 				147CE0552602DBC400214F65 /* Preview Content */,
@@ -128,6 +137,7 @@
 			files = (
 				147CE0572602DBC400214F65 /* Preview Assets.xcassets in Resources */,
 				147CE0542602DBC400214F65 /* Assets.xcassets in Resources */,
+				147CE0622602DC0900214F65 /* sample.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +150,8 @@
 			files = (
 				147CE0522602DBC400214F65 /* ContentView.swift in Sources */,
 				147CE0502602DBC400214F65 /* image_detectionApp.swift in Sources */,
+				147CE0642602DC0900214F65 /* MobileNetV2.mlmodel in Sources */,
+				147CE0632602DC0900214F65 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
