@@ -37,6 +37,7 @@ class Animal {
     
     func getImage() {
         
+        //Create 
         
     }
 }
