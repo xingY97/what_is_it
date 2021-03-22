@@ -37,7 +37,28 @@ class Animal {
     
     func getImage() {
         
-        //Create 
+        //Create a URL object
+        let url = URL(string: imageUrl)
         
+        //Check that the URL isn't nil
+        guard url != nil else {
+            print("Coulnt get URL object")
+            return
+        }
+        
+        //Get a URL session
+        let session = URLSession.shared
+        
+        //Create the data task
+        let dataTask = session.dataTask(with: url!) { (data, response, error) in
+            
+            //check that there are no errors and that there was data
+            if error == nil && data != nil {
+                self.imageData = data
+            }
+        }
+        
+        //Start the data task
+        dataTask.resume()
     }
 }
