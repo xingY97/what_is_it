@@ -14,6 +14,8 @@
 		147CE0622602DC0900214F65 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 147CE05F2602DC0900214F65 /* sample.json */; };
 		147CE0632602DC0900214F65 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CE0602602DC0900214F65 /* Constants.swift */; };
 		147CE0642602DC0900214F65 /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 147CE0612602DC0900214F65 /* MobileNetV2.mlmodel */; };
+		147CE0672602DD6E00214F65 /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CE0662602DD6E00214F65 /* Animal.swift */; };
+		147CE06B2602DF0000214F65 /* AnimalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CE06A2602DF0000214F65 /* AnimalModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		147CE05F2602DC0900214F65 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
 		147CE0602602DC0900214F65 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		147CE0612602DC0900214F65 /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
+		147CE0662602DD6E00214F65 /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		147CE06A2602DF0000214F65 /* AnimalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +62,15 @@
 		147CE04E2602DBC400214F65 /* image_detection */ = {
 			isa = PBXGroup;
 			children = (
+				147CE0712602DF4700214F65 /* Model */,
 				147CE04F2602DBC400214F65 /* image_detectionApp.swift */,
 				147CE0512602DBC400214F65 /* ContentView.swift */,
+				147CE0662602DD6E00214F65 /* Animal.swift */,
+				147CE0532602DBC400214F65 /* Assets.xcassets */,
 				147CE0602602DC0900214F65 /* Constants.swift */,
 				147CE0612602DC0900214F65 /* MobileNetV2.mlmodel */,
-				147CE05F2602DC0900214F65 /* sample.json */,
-				147CE0532602DBC400214F65 /* Assets.xcassets */,
 				147CE0582602DBC400214F65 /* Info.plist */,
+				147CE05F2602DC0900214F65 /* sample.json */,
 				147CE0552602DBC400214F65 /* Preview Content */,
 			);
 			path = image_detection;
@@ -76,6 +82,14 @@
 				147CE0562602DBC400214F65 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		147CE0712602DF4700214F65 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				147CE06A2602DF0000214F65 /* AnimalModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				147CE0522602DBC400214F65 /* ContentView.swift in Sources */,
+				147CE06B2602DF0000214F65 /* AnimalModel.swift in Sources */,
 				147CE0502602DBC400214F65 /* image_detectionApp.swift in Sources */,
 				147CE0642602DC0900214F65 /* MobileNetV2.mlmodel in Sources */,
 				147CE0632602DC0900214F65 /* Constants.swift in Sources */,
+				147CE0672602DD6E00214F65 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
