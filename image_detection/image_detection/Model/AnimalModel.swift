@@ -9,9 +9,9 @@ import Foundation
 
 //Networking
 
-class AnimalModel {
+class AnimalModel : ObservableObject{
     
-    var animal = Animal()
+    @Published var animal = Animal()
     
     func getAnimal() {
         

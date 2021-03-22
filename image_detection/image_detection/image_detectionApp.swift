@@ -11,7 +11,7 @@ import SwiftUI
 struct image_detectionApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(model: AnimalModel())
         }
     }
 }
