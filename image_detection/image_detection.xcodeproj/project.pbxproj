@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1446BCA926096D79002FA88E /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1446BCA826096D79002FA88E /* MobileNetV2.mlmodel */; };
 		1446BCAD26096F20002FA88E /* catordog 1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 1446BCAC26096F20002FA88E /* catordog 1.mlmodel */; };
+		1446BCB526097025002FA88E /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446BCB426097025002FA88E /* ProgressBar.swift */; };
+		1446BCB826097196002FA88E /* AnimalRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1446BCB726097196002FA88E /* AnimalRow.swift */; };
 		147CE0502602DBC400214F65 /* image_detectionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CE04F2602DBC400214F65 /* image_detectionApp.swift */; };
 		147CE0522602DBC400214F65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 147CE0512602DBC400214F65 /* ContentView.swift */; };
 		147CE0542602DBC400214F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 147CE0532602DBC400214F65 /* Assets.xcassets */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		1446BCA826096D79002FA88E /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = SOURCE_ROOT; };
 		1446BCAC26096F20002FA88E /* catordog 1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "catordog 1.mlmodel"; sourceTree = SOURCE_ROOT; };
+		1446BCB426097025002FA88E /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		1446BCB726097196002FA88E /* AnimalRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalRow.swift; sourceTree = "<group>"; };
 		147CE04C2602DBC400214F65 /* image_detection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = image_detection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		147CE04F2602DBC400214F65 /* image_detectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = image_detectionApp.swift; sourceTree = "<group>"; };
 		147CE0512602DBC400214F65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 				147CE0712602DF4700214F65 /* Model */,
 				147CE04F2602DBC400214F65 /* image_detectionApp.swift */,
 				147CE0512602DBC400214F65 /* ContentView.swift */,
+				1446BCB426097025002FA88E /* ProgressBar.swift */,
+				1446BCB726097196002FA88E /* AnimalRow.swift */,
 				147CE0662602DD6E00214F65 /* Animal.swift */,
 				147CE0532602DBC400214F65 /* Assets.xcassets */,
 				147CE0602602DC0900214F65 /* Constants.swift */,
@@ -169,8 +175,10 @@
 				147CE0522602DBC400214F65 /* ContentView.swift in Sources */,
 				147CE06B2602DF0000214F65 /* AnimalModel.swift in Sources */,
 				147CE0502602DBC400214F65 /* image_detectionApp.swift in Sources */,
+				1446BCB826097196002FA88E /* AnimalRow.swift in Sources */,
 				1446BCAD26096F20002FA88E /* catordog 1.mlmodel in Sources */,
 				147CE0632602DC0900214F65 /* Constants.swift in Sources */,
+				1446BCB526097025002FA88E /* ProgressBar.swift in Sources */,
 				147CE0672602DD6E00214F65 /* Animal.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
