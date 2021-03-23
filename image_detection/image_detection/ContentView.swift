@@ -26,7 +26,7 @@ struct ContentView: View {
             
             HStack {
                 
-                Text("What is it ?")
+                Text("Is it a cat or dog ?")
                     .font(.title)
                     .bold()
                     .padding(.leading, 10)
